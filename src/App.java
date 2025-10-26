@@ -30,6 +30,8 @@ public class App {
             }
         } catch (NumberFormatException e) {
             System.out.println("Número mal introducido.");
+        }catch(Exception e){
+            System.out.println("Ha habido un error inesperado.");
         }
     }
 }
